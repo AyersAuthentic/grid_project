@@ -3,10 +3,147 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact page</title>
+    <title>John Doe || Contact</title>
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
-    <h1>contact page</h1>
+    <!-- Navbar -->
+    <nav class="nav" , id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" class="nav-logo" alt="logo yellow" />
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- nav links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="projects.html">projects</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+        <!-- social icons -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com" class="social-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- Hero -->
+    <section class="section single-page">
+      <!-- section  title -->
+      <div class="section-title">
+        <h2>Contact</h2>
+        <div class="underline"></div>
+      </div>
+      <!--  -->
+      <div class="section-center page-info">
+        <!-- contact page-->
+        <p>
+          If you are looking to get ahold of me, you can send me an email at
+          <a href="mailto:email@email.com">@your_email</a>
+        </p>
+        <p>
+          You can also reach me on Twitter at
+          <a href="https://www.twitter.com">@your_social_media </a>
+        </p>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <p>&copy; <span id="date"></span>john doe. all rights reserved</p>
+    </footer>
+
+    <script src="./js/app.js"></script>
   </body>
 </html>
